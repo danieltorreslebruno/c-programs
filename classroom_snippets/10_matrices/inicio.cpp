@@ -3,8 +3,10 @@
 
 int main(int argc, char *argv[]){
 
-    for(int i=0;i<10;i++)
-	printf("%c\n", *argv[1]);
+    int matriz[10];
+
+    matriz[3] = 7;
+    printf("%i\n", matriz[3]);
 
     return EXIT_SUCCESS;
 }
